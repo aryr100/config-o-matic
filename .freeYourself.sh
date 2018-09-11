@@ -15,19 +15,19 @@ SCITECONF="https://raw.githubusercontent.com/ryanpcmcquen/linuxTweaks/master/.Sc
 XBINDKEYSRC="https://raw.githubusercontent.com/ryanpcmcquen/linuxTweaks/master/.xbindkeysrc"
 
 FLUXBOXCONF="https://raw.githubusercontent.com/ryanpcmcquen/linuxTweaks/master/.restoreFluxbox.sh"
-WMAKERCONF="https://raw.githubusercontent.com/ryanpcmcquen/linuxTweaks/master/.windowmakerSetup.sh"
-PEKWMCONF="https://raw.githubusercontent.com/ryanpcmcquen/linuxTweaks/master/.pekwmSetup.sh"
+#WMAKERCONF="https://raw.githubusercontent.com/ryanpcmcquen/linuxTweaks/master/.windowmakerSetup.sh"
+#PEKWMCONF="https://raw.githubusercontent.com/ryanpcmcquen/linuxTweaks/master/.pekwmSetup.sh"
 LUMINACONF="https://raw.githubusercontent.com/ryanpcmcquen/linuxTweaks/master/.luminaSetup.sh"
 KDECONF="https://raw.githubusercontent.com/ryanpcmcquen/linuxTweaks/master/.kdeSetup.sh"
-XFCECONF="https://raw.githubusercontent.com/ryanpcmcquen/linuxTweaks/master/.xfceSetup.sh"
+#XFCECONF="https://raw.githubusercontent.com/ryanpcmcquen/linuxTweaks/master/.xfceSetup.sh"
 MATECONF="https://raw.githubusercontent.com/ryanpcmcquen/linuxTweaks/master/.mateSetup.sh"
 
 GKRELLCFIL="https://raw.githubusercontent.com/ryanpcmcquen/linuxTweaks/master/slackware/gkrellm2/user-config"
 GKRELLTFIL="https://raw.githubusercontent.com/ryanpcmcquen/linuxTweaks/master/slackware/gkrellm2/theme_config"
 GKRELLCONF="https://raw.githubusercontent.com/ryanpcmcquen/linuxTweaks/master/.gkrellmConfig.sh"
 
-GITNAME="Ryan P. C. McQuen"
-GITEMAIL="ryanpcmcquen@member.fsf.org"
+GITNAME="AbdurRahman Rozell"
+GITEMAIL="aryr100@member.fsf.org"
 
 save_and_execute() {
   for ITEM in "$@"; do
