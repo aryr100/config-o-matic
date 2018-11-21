@@ -20,13 +20,13 @@ fi
 ## Versions!
 cd
 ## Get stable FreeSlack version:
-wget https://freeslack.net/fxp/ -O ~/freeslack-home-page.html
-grep freeslack freeslack-home-page.html | tail -1 | cut -d'>' -f2 | \
-  cut -d'-' -f2 | cut -d '/' -f1 > ~/freeslackStableVersion
-rm -v ~/freeslack-home-page.html
+wget https://freenix.net/fxp/ -O ~/freenix-home-page.html
+grep freenix freenix-home-page.html | tail -1 | cut -d'>' -f2 | \
+  cut -d'-' -f2 | cut -d '/' -f1 > ~/freenixStableVersion
+rm -v ~/freenix-home-page.html
 
-export SLACKSTAVER=${SLACKSTAVER="$(tr -d '\n\r' < ~/freeslackStableVersion)"}
-export DASHSLACKSTAVER=${DASHSLACKSTAVER=-"$(tr -d '\n\r' < ~/freeslackStableVersion)"}
+export SLACKSTAVER=${SLACKSTAVER="$(tr -d '\n\r' < ~/freenixStableVersion)"}
+export DASHSLACKSTAVER=${DASHSLACKSTAVER=-"$(tr -d '\n\r' < ~/freenixStableVersion)"}
 
 ## Sbopkg:
 wget www.sbopkg.org -O ~/sbopkg-home-page.html
